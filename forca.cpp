@@ -21,6 +21,7 @@ using namespace std;
 //g++ .\forca.cpp -o forca.exe ; .\forca.exe -std=c++11
 //mingw32-make forca        Windows
 //make forca                linux
+//g++ *.cpp -o forca.exe
 
 string palavra_secreta = "MELANCIA";
 map<char, bool> chutou;
