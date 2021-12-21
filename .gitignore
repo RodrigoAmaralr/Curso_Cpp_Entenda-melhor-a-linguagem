@@ -3,3 +3,5 @@ prog
 .vscode/
 forca
 *.o
+Debug
+.vs
