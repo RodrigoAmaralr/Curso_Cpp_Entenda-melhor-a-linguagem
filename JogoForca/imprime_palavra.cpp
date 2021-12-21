@@ -1,14 +1,9 @@
 #include <iostream>
-#include <string>
-#include <map>
 #include "imprime_palavra.hpp"
 
-extern std::string palavra_secreta;
-extern std::map<char, bool> chutou;
-
-void imprime_palavra(){
+void imprime_palavra(const std::string& palavra_secreta, const std::map<char, bool>& chutou){
     for(char letra : palavra_secreta){
-        if(chutou[letra]){
+        if(!(chutou.find(letra) == chutou.end())){
             std::cout << letra << " ";
         }else{
             std::cout << "_ ";

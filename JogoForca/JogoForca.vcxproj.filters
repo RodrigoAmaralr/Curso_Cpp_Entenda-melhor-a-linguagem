@@ -24,9 +24,6 @@
     <ClCompile Include="forca.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="imprime_cabecalho.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="imprime_erros.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -42,9 +39,6 @@
     <ClCompile Include="nao_acertou.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nao_enforcou.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="salvar_arquivo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -54,37 +48,34 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adiciona_palavra.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="chuta.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imprime_cabecalho.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imprime_erros.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imprime_palavra.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="le_arquivo.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="letra_existe.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="nao_acertou.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nao_enforcou.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="salvar_arquivo.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="sorteia_palavra.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
