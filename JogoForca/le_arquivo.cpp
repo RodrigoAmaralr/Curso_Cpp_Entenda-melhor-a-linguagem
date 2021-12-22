@@ -2,7 +2,7 @@
 #include <fstream>
 #include "le_arquivo.hpp"
 
-std::vector<std::string> le_arquivo(){
+std::vector<std::string> Forca::le_arquivo(){
     std::ifstream arquivo;
     arquivo.open("palavras.txt");
 

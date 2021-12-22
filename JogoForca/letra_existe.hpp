@@ -2,4 +2,6 @@
 #include <map>
 #include <vector>
 
-bool letra_existe(const char& chute, const std::string& palavra_secreta);
+namespace Forca {
+	bool letra_existe(const char& chute, const std::string& palavra_secreta);
+}

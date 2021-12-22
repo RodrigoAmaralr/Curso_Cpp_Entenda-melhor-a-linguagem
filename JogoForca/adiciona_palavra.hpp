@@ -1,2 +1,4 @@
 #pragma once
-void adiciona_palavra();
+namespace Forca {
+	void adiciona_palavra();
+}
